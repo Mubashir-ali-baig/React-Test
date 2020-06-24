@@ -1,0 +1,126 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.questionTitle{
+  color: rgb(81, 78, 78);
+}
+.category{
+  margin-top: -40px;
+  font-weight: 400;
+  color: gray;
+}
+
+.stars{
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+
+
+.row{
+  margin-top: 60px;
+  justify-content: space-around;
+}
+
+.progress{
+  margin-top: 0%;
+  margin-bottom: 20px;
+  border: 1px solid;
+  width: 80%;
+  height: 20px;
+}
+
+.barProgress{
+  display: flex;
+  height: 6px;
+  margin: 20px 0;
+  width:80%;
+  height:20px;
+  border:1px solid black;
+  border-radius:5px;
+}
+.partialBarProgress{
+  transition:width 2s;
+}
+
+.optionList{
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.next{
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;;
+}
+
+.correct{
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  
+}
+
+.wrong{
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+  color: green;
+  background-color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  #mainContainer{
+    width:90%;
+    border:5px gainsboro solid;
+  }
+  
+  .resultText{
+    margin-left:110px;
+  }
+}
+
+
+@media (min-width: 500px) {
+  #mainContainer{
+    width:50%;
+    border:5px gainsboro solid;
+  }
+  .resultText{
+    margin-left:145px;
+  }
+}
+.frame{
+  max-width: 960px;
+  
+  margin: 50px;
+  margin-left: 400px;
+  padding: 10px;
+  padding-right: 30px;
+  width: 700px;
+  height:600px;
+  border: 5px solid rgb(182, 172, 172);
+  background-color: whitesmoke; 
+  
+}
+
